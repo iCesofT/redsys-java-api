@@ -11,6 +11,8 @@ Inside the zip file you have:
 
 Based on the Java source code, I decided to generate a Maven project with a new API version with the same signatures but simplifying the Java source code:
 
-- Using Java 8. We are able to take out the `commons-codec` library.
+- Using Java 7.
+- We are able to take out the `commons-codec` library.
 - A new `Utils` class joining the same methods between `ApiMacSha256` and `ApiWsMacSha256` classes.
+
 
